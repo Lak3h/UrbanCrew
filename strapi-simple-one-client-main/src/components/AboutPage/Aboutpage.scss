@@ -1,0 +1,75 @@
+@import '~react-responsive-carousel/lib/styles/carousel.min.css';
+
+.App {
+  text-align: center;
+
+  .App-header {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .Carousel-section {
+    margin: 40px auto;
+    max-width: 800px;
+
+    .carousel .slider-wrapper {
+      overflow: visible !important;
+    }
+
+    .carousel .slider {
+      height: 400px;
+    }
+
+    .legend {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .About-section {
+    background-color: #f2f2f2;
+    padding: 40px 20px;
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .Parallax-section {
+ 
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+
+    .Parallax-content {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border-radius: 4px;
+
+      h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+ 
+  
+}
